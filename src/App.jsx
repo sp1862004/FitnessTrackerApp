@@ -1,17 +1,17 @@
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
-import Header from './Layout/Header';
-import Home from './Layout/Home.jsx';
+import Header from './Layout/Header.jsx';
+import Home from './pages/Home/Home.jsx';
 
-import Index from './PAGES/Write/Index';
-import Update from './PAGES/Write/Update';
-import Footer from './Layout/Footer';
-import SignIn from './PAGES/Home/Signin';
-import SignUp from './PAGES/Home/Signup';
-import ContactUs from './PAGES/Home/Contect';
-import AddProject from './pages/Write/AddProject.jsx';
-import ShowMorePage from './Layout/ShowMorePage.jsx';
+import Index from './PAGES/Write/Index.jsx';
+import Update from './PAGES/Write/Update.jsx';
+import Footer from './Layout/Footer.jsx';
+import SignIn from './PAGES/Home/Signin.jsx';
+import SignUp from './PAGES/Home/Signup.jsx';
+import ContactUs from './PAGES/Home/Contect.jsx';
+import AddProject from './PAGES/Write/AddProject.jsx';
+import ShowMorePage from './pages/Home/ShowMorePage.jsx';
 
 
 function App() {
