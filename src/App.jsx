@@ -2,7 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import Home from './pages/Home/Home.jsx';
-import Index from './PAGES/Write/Index.jsx';
+
 import ShowMore from './pages/Home/ShowMore.jsx';
 import UpdatePro from './pages/Home/UpdatePro.jsx';
 import AddProjects from './pages/Write/AddProjects.jsx';
@@ -11,6 +11,7 @@ import SignUp from './pages/Home/Signup.jsx';
 import Contact from './pages/Home/Contect.jsx';
 import Footer from './Layout/Footer.jsx';
 import Header from './Layout/Header.jsx';
+import Index from './pages/Write/Index.jsx';
 
 
 
