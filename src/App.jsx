@@ -3,7 +3,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import Header from './Layout/Header';
 import Home from './Layout/Home.jsx';
-import ShowMorePage from './PAGES/Home/ShowMorePage';
+
 import Index from './PAGES/Write/Index';
 import Update from './PAGES/Write/Update';
 import Footer from './Layout/Footer';
@@ -11,6 +11,7 @@ import SignIn from './PAGES/Home/Signin';
 import SignUp from './PAGES/Home/Signup';
 import ContactUs from './PAGES/Home/Contect';
 import AddProject from './pages/Write/AddProject.jsx';
+import ShowMorePage from './Layout/ShowMorePage.jsx';
 
 
 function App() {
