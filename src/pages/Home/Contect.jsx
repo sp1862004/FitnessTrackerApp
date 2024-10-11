@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ContactUs = () => {
+const Contact = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -67,4 +67,4 @@ const ContactUs = () => {
     );
 };
 
-export default ContactUs;
+export default Contact;

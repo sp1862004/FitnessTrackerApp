@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import db from '../../../firebase';
 import 'animate.css'; 
 
-const ShowMorePage = () => {
+const ShowMore = () => {
     const { id } = useParams();
     const [project, setProject] = useState(null); 
     const [paymentStatus, setPaymentStatus] = useState(''); 
@@ -149,4 +149,4 @@ const ShowMorePage = () => {
     );
 };
 
-export default ShowMorePage;
+export default ShowMore;

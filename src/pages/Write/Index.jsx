@@ -1,10 +1,10 @@
-import AddProject from './AddProject'
+import AddProjects from './AddProjects'
 
 
 const Index = () => {
     return (
         <>
-            <AddProject />
+            <AddProjects />
         </>
     )
 }

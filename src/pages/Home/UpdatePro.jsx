@@ -5,7 +5,7 @@ import { ref as dbRef, get, ref, set } from 'firebase/database';
 import db from '../../../firebase';
 import 'animate.css';
 
-const UpdateEvent = () => {
+const UpdatePro = () => {
     const { id } = useParams();
     const { register, handleSubmit, reset } = useForm();
     const navigate = useNavigate();
@@ -154,4 +154,4 @@ const UpdateEvent = () => {
     );
 };
 
-export default UpdateEvent;
+export default UpdatePro;

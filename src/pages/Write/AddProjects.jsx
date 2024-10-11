@@ -4,7 +4,7 @@ import db from '../../../firebase';
 import { useNavigate } from 'react-router-dom';
 import 'animate.css';
 
-const AddProject = () => {
+const AddProjects = () => {
     const { register, handleSubmit, reset, setValue } = useForm();
     const navigate = useNavigate();
 
@@ -151,4 +151,4 @@ const AddProject = () => {
     );
 };
 
-export default AddProject;
+export default AddProjects;
