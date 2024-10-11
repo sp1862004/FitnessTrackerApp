@@ -1,8 +1,8 @@
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'; // Import Routes
-import 'react-toastify/dist/ReactToastify.css'; // Add this in your main file
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import Header from './Layout/Header';
-import Home from './PAGES/Home/Home';
+import Home from './Layout/Home.jsx';
 import ShowMorePage from './PAGES/Home/ShowMorePage';
 import Index from './PAGES/Write/Index';
 import Update from './PAGES/Write/Update';
@@ -10,7 +10,7 @@ import Footer from './Layout/Footer';
 import SignIn from './PAGES/Home/Signin';
 import SignUp from './PAGES/Home/Signup';
 import ContactUs from './PAGES/Home/Contect';
-import AddProject from './pages/Write/AddProject';
+import AddProject from './pages/Write/AddProject.jsx';
 
 
 function App() {

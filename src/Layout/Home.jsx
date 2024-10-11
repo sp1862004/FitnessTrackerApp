@@ -1,5 +1,5 @@
-import Row1 from './Row1'
-import ProjectsList from './ProjectsList'
+import Row1 from '../pages/Home/Row1'
+import ProjectsList from '../pages/Home/ProjectsList'
 
 
 const Home = () => {
